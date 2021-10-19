@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import PostsScreen from '../../features/Posts/PostsScreen';
+import PostsScreen from '../../features/posts/PostsScreen';
 import Page from '../Page';
 
 interface PageTestProps {

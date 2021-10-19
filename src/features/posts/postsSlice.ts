@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { getPosts } from './PostService';
 import { IPost } from './models';
+import { getPosts } from './PostService';
 
 interface InitialState {
   isLoading: boolean;

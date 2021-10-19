@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Page from '../Page';
 import RootStyle from './style';
 
-const Page404 = () => (
+const NotFoundPage = () => (
   <Page>
     <RootStyle>
       <p>
@@ -15,4 +15,4 @@ const Page404 = () => (
   </Page>
 );
 
-export default Page404;
+export default NotFoundPage;

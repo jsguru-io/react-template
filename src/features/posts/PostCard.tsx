@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { FC } from 'react';
-import { CardActionArea } from '@material-ui/core';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
+
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+import CardActionArea from '@mui/material/CardActionArea';
+
 import { PrimaryCard } from '../../components/cards';
 import { IPost } from './models';
 

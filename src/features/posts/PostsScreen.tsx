@@ -12,7 +12,6 @@ const PostsScreen: FC = () => {
   useEffect(() => {
     dispatch(getPostsAsync());
   }, [dispatch]);
-
   return (
     <div>
       {posts.map((post: IPost) => (
